@@ -1,0 +1,17 @@
+[
+    {
+        "user_id": "1",
+        "post_title": "Hello-World",
+        "post_content": "This is a seeded post!"
+    },
+    {
+        "user_id": "2",
+        "post_title": "Hello-Moon",
+        "post_content": "This is another seeded post!"
+    },
+    {
+        "user_id": "3",
+        "post_title": "That's no Moon",
+        "post_content": "All your base are belong to us!"
+    }
+]
