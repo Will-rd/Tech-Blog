@@ -12,12 +12,12 @@ const app = express();
 
 app.use(express.static('public'));
 
-// Set up Handlebars.js engine with custom helpers
-// const hbs = exphbs.create({});
+//Set up Handlebars.js engine with custom helpers
+const hbs = exphbs.create({});
 
-// Inform Express.js on which template engine to use
-// app.set('view engine', 'handlebars');
-// app.engine('handlebars', hbs.engine);
+//Inform Express.js on which template engine to use
+app.set('view engine', 'handlebars');
+app.engine('handlebars', hbs.engine);
 
 // For post http requests
 app.use(express.json());
